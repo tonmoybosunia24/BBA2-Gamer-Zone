@@ -5,10 +5,6 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.Main-Section{
-    /* width: 1000px;
-    margin: 0 auto; */
-}
 .Button-Primary{
     padding: 10px 20px;
     color: #FFF;
@@ -230,6 +226,84 @@ body{
     left: -131px;
 }
 
+/* Careers Section Styles */
+
+.Careers-Section{
+    background-color: #FF42A5;
+    margin-top: 200px;
+}
+.Careers-Section-Container{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+    
+}
+.Careers-Section-Text{
+    width: 50%;
+}
+.Careers-Section-Text{
+    margin-bottom: 0px;
+}
+.Careers-Bullet-Point{
+    display: flex;
+    gap: 30px;
+    line-height: 25px;
+    margin-top: 0px;
+}
+.Careers-Bullet-Point-Second-Child{
+    text-align: right;
+}
+.Careers-Section-Button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.Careers-Section-Button > a{
+    text-decoration: none;
+}
+.Careers-Section-Image{
+    width: 50%;
+}
+.Careers-Section-Image > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Action Games Section Styles */
+
+.Game-Types{
+    width: 1050px;
+    margin: 50px auto;
+    margin-top: 50px;
+}
+.Game-Types-Container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Game-Types-Content{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.313);
+    border-radius: 35px;
+    padding: 0px 10px 0px 0px;
+    font-size: 12px;
+    gap: 10px;
+}
+.Game-Types-Content:hover{
+    border: 2px solid #FF42A5;
+}
+.Game-Types-Content:hover > h3{
+    color: #FF42A5;
+}
+.Game-Types-Content > h3{
+    color: rgb(58, 53, 53);
+}
+
 /* Responsive Leyout Styles */
 
 /* Mobile View Responsive */
@@ -334,7 +408,37 @@ body{
     .Play-Instantly-Section-Child-Image > img{
         width: 155px;    
     }
-    
+    .Careers-Section{
+        margin-top: 100px;
+    }
+    .Careers-Section-Container{
+        width: calc(100% - 60px);
+        margin: 0px 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Careers-Section-Text{
+        width: 100%;
+    }
+    .Careers-Section-Image{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .Game-Types{
+        width: calc(100% - 60px);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Game-Types-Container{
+        gap: 10px;
+    }
+    .Game-Types-Content > img{
+        width: 30px;
+    }
+    .Game-Types-Content{
+        width: 80px;
+        font-size: 0.25rem;
+    }
 }
 /* Tablet View Responsive */
 
