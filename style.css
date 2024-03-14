@@ -304,6 +304,39 @@ body{
     color: rgb(58, 53, 53);
 }
 
+/* Footer Section Styles */
+
+.Footer{
+    background-color: #0B0223;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+.Footer-Logo{
+    display: flex;
+    justify-content: center;
+}
+.Footer-Container > ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+.Footer-Container > ul > li{
+    list-style: none;
+    margin-left: 30px;
+}
+.Footer-Container > ul > li:first-child{
+    margin-left: 0px;
+}
+.Footer-Container > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.Footer-Icon > .fa-brands {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
 /* Responsive Leyout Styles */
 
 /* Mobile View Responsive */
@@ -438,6 +471,42 @@ body{
     .Game-Types-Content{
         width: 80px;
         font-size: 0.25rem;
+    }
+    .Footer{
+        background-color: #0B0223;
+        color: white;
+        padding: 20px 0px 30px 0px;
+        text-align: center;
+    }
+    .Footer-Logo{
+        display: flex;
+        justify-content: center;
+    }
+    .Footer-Container > ul{
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    .Footer-Container > ul > li{
+        list-style: none;
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+    .Footer-Container > ul > li:first-child{
+        margin-left: 0px;
+    }
+    .Footer-Container > ul > li > a{
+        text-decoration: none;
+        color: white;
+    }
+    .Footer-Icon > .fa-brands{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .Footer-Icon > .fa-brands:first-child{
+        margin-left: 0px;
+    }
+    .Footer-Container > p{
+        margin-bottom: 0px;
     }
 }
 /* Tablet View Responsive */
